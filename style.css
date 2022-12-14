@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    width: 100%;
+  }
+    .userInputBookContainer{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      margin: 50px auto;
+      max-width: 400px;
+    }
+
+    .btnContainer{
+      margin-top: 40px;
+    }
+    .newBookBtn{
+      width: 100px;
+      text-align: center;
+      margin: 40px auto;
+    }
+    .removeBookBtn{
+      width: 100px;
+      text-align: center;
+      margin: 40px auto;
+    }
+    .removeBookContainer{
+      margin-top: 40px;
+    }
+    .headerContainer{
+      background-color: rgb(33, 70, 138);
+      width: 100%;
+    }
+    .appTitle{
+      background-color: rgb(33, 70, 138);
+      padding:20px;
+      color: white;
+    }
+    .headerContainer{
+      text-align: center;
+
+    }
+    .userInputBookContainer label{
+      color: rgb(95, 95, 95);
+      margin-top: 20px;
+      font-weight: bold;
+      text-align: start;
+    }
+    .userContainer{
+      display: flex;
+      justify-content: center;
+      text-align: start;
+    }
+.userContainer label{
+  font-weight: bold;
+  text-align: start;
+}
